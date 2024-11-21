@@ -75,6 +75,39 @@ finally:
     print("end of division exception handling")
     pass
 
+#value list exception handling
+try:
+    num = "ten"
+    num = int(num)
+    print("number", num)
+except ValueError:
+    print("should be an integer")
+    pass
+except Exception as e:
+    print(e)
+    pass
+else:
+    print("no exception were raised")
+    pass
+finally:
+    print("end of key value list exception handling")
+    pass
+
+#user input exception handling
+try:
+    user = input("please enter a number: ")
+    num = float(user)
+    print("number", num)
+    pass
+except Exception as e:
+    print("Exception", e)
+    pass
+else:
+    print("no exception were raised")
+    pass
+finally:
+    print("end of user exception handling")
+    pass
 
 
 
