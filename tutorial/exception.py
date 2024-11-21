@@ -33,6 +33,31 @@ finally:
     print("end of index out of range exception handling")
     pass
 
+#key values exceptions
+try:
+    dictionary = {
+        3: "three",
+        4: "four"
+    }
+    key = "10"
+    value = dictionary.get(key)
+    print("Value", value)
+    pass
+except Exception as e:
+    print(e)
+    pass
+else:
+    print("no exception were raised")
+    pass
+finally:
+    print("end of key value exception handling")
+    pass
+
+
+
+
+
+
 
 
 
