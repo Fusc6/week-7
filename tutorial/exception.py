@@ -53,6 +53,31 @@ finally:
     print("end of key value exception handling")
     pass
 
+#division exception handling
+try:
+    d = 10
+    n = 5
+    a = n / d
+    print("answer", d, "/", n, "=", a)
+except ZeroDivisionError:
+    print("cannot divide by zero")
+    pass
+except TypeError:
+    print("division requires number")
+    pass
+except Exception as e:
+    print(e)
+    pass
+else:
+    print("no exception were raised")
+    pass
+finally:
+    print("end of division exception handling")
+    pass
+
+
+
+
 
 
 
