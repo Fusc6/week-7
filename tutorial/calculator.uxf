@@ -1,0 +1,32 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>160</x><y>140</y><w>210</w><h>190</h></coordinates><panel_attributes>Operation
+--
++first
++second
++operator
+--
++__str__: str
+-operations
+-calculator
+-add
+-subtract
+-multiply
+-divide
++__convert_str_to_num
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>570</x><y>140</y><w>210</w><h>190</h></coordinates><panel_attributes>Calculator
+--
+
+--
+-history
+-home
+-operation
+-create_operation
+-add
+-divide
+-multiply
+-divide
+-close
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>360</x><y>220</y><w>230</w><h>50</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m1=1..1
+m2=1..n
+Composed of</panel_attributes><additional_attributes>210;20;10;20</additional_attributes></element></diagram>
